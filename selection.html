@@ -147,7 +147,7 @@ l.parentNode.insertBefore(s, l);
         document.querySelector('#submit-btn').addEventListener('click', (e) => {
             e.preventDefault();
             if (!selected.v) return;
-            window.location = 'handling.html?v=' + selected.v;
+            window.location = 'verification.html?v=' + selected.v;
         });
         document.querySelector('#category').addEventListener('change', (e) => {
             selected = {
